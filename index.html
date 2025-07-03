@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scanner Kuliner Bali</title>
+    <!-- Tambahkan ini DULU (TensorFlow.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <!-- Baru ini (Teachable Machine image library) -->
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <!-- CSS kamu -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="gambar/hindu.png" alt="Logo Kuliner Bali" id="logo" />
+      <h1>Scanner Kuliner Bali</h1>
+    </header>
+    <main>
+      <div id="webcam" class="webcam-container"></div>
+      <div class="kontrol">
+        <button onclick="predict()">Scan Sekarang</button>
+        <label for="upload" class="upload-label">
+          📂 Pilih Gambar dari File
+          <input
+            type="file"
+            id="upload"
+            name="gambar"
+            accept="image/*"
+            onchange="handleUpload(event)"
+            hidden
+          />
+        </label>
+      </div>
+
+      <div class="hasil">
+        <h2 id="nama">Nama Makanan</h2>
+        <img id="gambar" alt="gambar makanan" src="gambar/code.png" />
+        <p><strong>Bahan:</strong> <span id="bahan"></span></p>
+        <p><strong>Cara:</strong> <span id="cara"></span></p>
+        <p><strong>Budaya:</strong> <span id="budaya"></span></p>
+        <p><strong>Daerah:</strong> <span id="daerah"></span></p>
+        <p><strong>Kalori:</strong> <span id="kalori"></span></p>
+      </div>
+    </main>
+
+    <footer>
+      <p>🇮🇩 Dibuat dengan rasa cinta & budaya oleh Mahasiswa Bali</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+{
+  "Sumping": {
+    "bahan": ["Tepung beras", "Gula merah", "Daun pisang"],
+    "cara": "1. Campur tepung dengan air dan santan. 2. Bungkus dengan daun pisang. 3. Kukus.",
+    "kalori": 180,
+    "gambar": "sumping.jpg"
+  },
+  "Lawar": {
+    "bahan": ["Daging cincang", "Kelapa parut", "Rempah Bali"],
+    "cara": "1. Campur semua bahan. 2. Masak sampai matang.",
+    "kalori": 250,
+    "gambar": "lawar.jpg"
+  },    
+  "Sudang Lepet": {
+  "kategori": "Snack",
+  "cara": "Salted fish is wrapped in banana leaves and grilled with coconut oil",
+  "budaya": "Represents coastal heritage and traditional preservation methods",
+  "daerah": "Singaraja",
+  "gambar": "sudang_lepet.jpg",
+  "bahan": [
+    "1 kg(misal) Salted fish (sudang)",
+    "2 potong(misal) Banana leaf",
+    "2 kg(misal) Coconut oil"
+  ],
+  "kalori": 245
+},
+  "Tipat Cantok": {
+    "kategori": "Snack",
+    "cara": "Rice cakes and veggies are steamed then mixed with thick peanut sauce",
+    "budaya": "Common daily snack; reflects simplicity and balance",
+    "daerah": "Tabanan",
+    "gambar": "tipat_cantok.jpg",
+    "bahan": [
+      "2 potong Lontong (rice cakes)",
+      "1 genggam Kacang panjang",
+      "3 sendok makan Saus kacang",
+      "1 lembar Daun salam"
+    ],
+    "kalori": 260
+  },
+  "Serombotan": {
+    "kategori": "Salad",
+    "cara": "Steamed vegetables topped with spicy grated coconut sauce",
+    "budaya": "A healthy vegetarian dish from traditional farming communities",
+    "daerah": "Bangli",
+    "gambar": "serombotan.jpg",
+    "bahan": [
+      "1 mangkuk Sayuran kukus",
+      "2 sendok makan Kelapa parut",
+      "1 sendok teh Sambal kelapa"
+    ],
+    "kalori": 245
+  },
+  "Bubur Mengguh": {
+    "kategori": "Snack",
+    "cara": "Porridge cooked thick, topped with seasoned chicken and fried shallots",
+    "budaya": "Served during ceremonies and village gatherings",
+    "daerah": "Singaraja",
+    "gambar": "bubur_mengguh.jpg",
+    "bahan": [
+      "1 mangkuk Bubur beras",
+      "1 potong Ayam suwir berbumbu",
+      "1 sendok makan Bawang goreng"
+    ],
+    "kalori": 245
+  },
+  "Bir Singaraja": {
+    "kategori": "Minuman Beralkohol",
+    "cara": "Difermentasi dari malt, hop, ragi, dan air.",
+    "budaya": "Minuman populer di berbagai kesempatan.",
+    "daerah": "Singaraja, Bali",
+    "gambar": "Bir.jpg",
+    "bahan": [
+      "Air",
+      "Malt (Jelai)",
+      "Hop",
+      "Ragi"
+    ],
+    "kalori": "150-200" 
+  },
+  "Sambal Indofood": {
+    "kategori": "Bumbu",
+    "cara": "Dikonsumsi langsung sebagai pelengkap makanan atau sebagai bahan masakan.",
+    "budaya": "Digunakan luas dalam hidangan sehari-hari masyarakat Indonesia.",
+    "daerah": "Indonesia",
+    "gambar": "Sambal Indofood.jpg",
+    "bahan": [
+      "Cabai",
+      "Air",
+      "Gula",
+      "Garam",
+      "Bawang Putih",
+      "Cuka",
+      "Pengental (pati termodifikasi)",
+      "Pengawet (natrium benzoat, natrium metabisulfit)",
+      "Penguat Rasa (mononatrium glutamat)"
+    ],
+    "kalori": "Estimasi 10-20 per sendok makan"
+  },
+  "Minyak Kayu Putih": {
+    "kategori": "Obat Tradisional/Herbal",
+    "cara": "Dioleskan pada kulit untuk meredakan nyeri, gatal, atau menghangatkan tubuh. Dapat juga dihirup aromanya.",
+    "budaya": "Digunakan secara luas di Indonesia sebagai obat keluarga untuk masuk angin, perut kembung, gatal-gatal, dan gigitan serangga.",
+    "daerah": "Indonesia (khususnya dari pohon Melaleuca cajuputi)",
+    "gambar": "minyak_kayu_putih.jpeg",
+    "bahan": [
+      "Oleum Cajuputi (Minyak Kayu Putih)"
+    ],
+    "kalori": "0" 
+  },
+  "Es Daluman": {
+    "kategori": "Beverage",
+    "cara": "Daluman jelly is cut, poured with coconut milk and palm sugar",
+    "budaya": "Refreshing drink, often enjoyed in hot weather",
+    "daerah": "Tabanan",
+    "gambar": "es_daluman.jpg",
+    "bahan": [
+      "1 gelas Cincau hijau (daluman)",
+      "1 sendok makan Gula merah cair",
+      "100 ml Santan"
+    ],
+    "kalori": 245
+  },
+  "Kopi Kintamani": {
+    "kategori": "Beverage",
+    "cara": "Brewed or filtered using traditional methods",
+    "budaya": "Pride of Bangli highlands, with GI (Geographical Indication) certification",
+    "daerah": "Tabanan",
+    "gambar": "kopi_kintamani.jpg",
+    "bahan": [
+      "2 sendok makan Biji kopi Arabika",
+      "200 ml Air panas",
+      "1 iris Kulit jeruk"
+    ],
+    "kalori": 245
+  },
+  "Sate Plecing": {
+    "kategori": "Snack",
+    "cara": "Grilled meat served with spicy tomato sambal",
+    "budaya": "Popular in Tabanan, symbolizes fiery and bold flavor",
+    "daerah": "Bangli",
+    "gambar": "sate_plecing.jpg",
+    "bahan": [
+      "5 tusuk Daging bakar",
+      "2 sendok makan Sambal plecing",
+      "1 sendok teh Minyak kelapa"
+    ],
+    "kalori": 245
+  },
+  "Jaje Laklak": {
+    "kategori": "Snack",
+    "cara": "Batter is poured into small mold, cooked and topped with coconut and sugar",
+    "budaya": "Traditional Balinese cake often served during ceremonies",
+    "daerah": "Bangli",
+    "gambar": "jaje_laklak.jpg",
+    "bahan": [
+      "100 gr Tepung beras",
+      "150 ml Santan",
+      "2 sendok makan Kelapa parut",
+      "1 sendok makan Gula merah"
+    ],
+    "kalori": 260
+  },
+  "Jukut Ares": {
+    "kategori": "Snack",
+    "cara": "Banana stem cooked with meat and traditional spices",
+    "budaya": "Common in ceremonies as a sustainable and humble dish",
+    "daerah": "Tabanan",
+    "gambar": "jukut_ares.jpg",
+    "bahan": [
+      "1 batang Batang pisang muda",
+      "100 gr Daging babi/ayam",
+      "2 siung Bawang putih",
+      "1 sdt Ketumbar bubuk"
+    ],
+    "kalori": 260
+  },
+  "Nasi Tepeng": {
+    "kategori": "Snack",
+    "cara": "Soft rice served with various spiced side dishes",
+    "budaya": "Symbol of cultural identity in breakfast traditions",
+    "daerah": "Singaraja",
+    "gambar": "nasi_tepeng.jpg",
+    "bahan": [
+      "1 piring Nasi lembek",
+      "1 butir Telur rebus",
+      "1 sendok sayur Sayur urap",
+      "2 sendok makan Sambal Bali"
+    ],
+    "kalori": 260
+  },
+   "Loloh Cemcem": {
+    "kategori": "Beverage",
+    "cara": "Leaves blended and mixed with tamarind and sugar",
+    "budaya": "Traditional herbal drink believed to have health benefits",
+    "daerah": "Tabanan",
+    "gambar": "loloh_cemcem.jpg",
+    "bahan": [
+      "10 lembar Daun cemcem",
+      "1 sdt Asam Jawa",
+      "1 sdm Gula aren",
+      "100 ml Air matang"
+    ],
+    "kalori": 260
+  },
+  "Entil": {
+    "kategori": "Snack",
+    "cara": "Rice is steamed in banana leaves and served with side dishes",
+    "budaya": "A ceremonial dish representing togetherness",
+    "daerah": "Bangli",
+    "gambar": "entil.jpg",
+    "bahan": [
+      "1 bungkus Nasi entil (nasi dalam daun)",
+      "1 potong Telur rebus",
+      "1 sdm Sambal goreng",
+      "1 porsi Sayur labu"
+    ],
+    "kalori": 260
+  },
+  "Rujak Bulung": {
+    "kategori": "Snack",
+    "cara": "Seaweed mixed with spicy grated coconut and sambal",
+    "budaya": "Common coastal snack rich in iodine and culture",
+    "daerah": "Singaraja",
+    "gambar": "rujak_bulung.jpg",
+    "bahan": [
+      "100 gr Rumput laut",
+      "2 sdm Kelapa parut",
+      "1 sdt Terasi bakar",
+      "3 buah Cabe rawit"
+    ],
+    "kalori": 260
+  }
+
+}

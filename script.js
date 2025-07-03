@@ -10,7 +10,7 @@ async function init() {
   maxPredictions = model.getTotalClasses();
 
   // Init kamera
-  webcam = new tmImage.Webcam(300, 300, true);
+  webcam = new tmImage.Webcam(300, 300, { facingMode: "environment" });
   await webcam.setup(); // minta izin akses kamera
   await webcam.play();
   window.requestAnimationFrame(loop);

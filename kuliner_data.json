@@ -230,6 +230,34 @@
       "3 buah Cabe rawit"
     ],
     "kalori": 260
+  },
+  "Ayam Betutu": {
+    "kategori": "Main Course",
+    "cara": "Marinated with complete Balinese spices, wrapped in banana leaves, steamed",
+    "budaya": "Traditional ceremonial dish and symbol of respect",
+    "daerah": "Bangli",
+    "gambar": "ayam_betutu.jpg",
+    "bahan": [
+      "1 ekor Ayam utuh",
+      "3 lembar Daun salam",
+      "5 sdm Base genep (bumbu lengkap Bali)",
+      "2 lembar Daun pisang"
+    ],
+    "kalori": 260
+  },
+  "Lawar Merah": {
+    "kategori": "Appetizer",
+    "cara": "Marinated with complete Balinese spices, wrapped in banana leaves, steamed",
+    "budaya": "Symbol of community cooperation",
+    "daerah": "Singaraja",
+    "gambar": "lawar_merah.jpg",
+    "bahan": [
+      "200 gr Daging cincang",
+      "100 gr Parutan kelapa",
+      "3 sdm Darah babi",
+      "1 sdt Bumbu genep"
+    ],
+    "kalori": 260
   }
 
 }

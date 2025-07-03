@@ -17,6 +17,7 @@
   "budaya": "Represents coastal heritage and traditional preservation methods",
   "daerah": "Singaraja",
   "gambar": "sudang_lepet.jpg",
+  "barcode": "barcode_sudang.jpg",
   "bahan": [
     "1 kg(misal) Salted fish (sudang)",
     "2 potong(misal) Banana leaf",
@@ -70,6 +71,7 @@
     "budaya": "Minuman populer di berbagai kesempatan.",
     "daerah": "Singaraja, Bali",
     "gambar": "Bir.jpg",
+    "barcode": "barcode_bir.jpg",
     "bahan": [
       "Air",
       "Malt (Jelai)",
@@ -189,12 +191,13 @@
     ],
     "kalori": 260
   },
-   "Loloh Cemcem": {
+  "Loloh Cemcem": {
     "kategori": "Beverage",
     "cara": "Leaves blended and mixed with tamarind and sugar",
     "budaya": "Traditional herbal drink believed to have health benefits",
     "daerah": "Tabanan",
     "gambar": "loloh_cemcem.jpg",
+    "barcode": "barcode_loloh.jpg",
     "bahan": [
       "10 lembar Daun cemcem",
       "1 sdt Asam Jawa",
@@ -236,7 +239,7 @@
     "cara": "Marinated with complete Balinese spices, wrapped in banana leaves, steamed",
     "budaya": "Traditional ceremonial dish and symbol of respect",
     "daerah": "Bangli",
-    "gambar": "ayam_betutu.jpg",
+    "gambar": "ayam_betutu.jpeg",
     "bahan": [
       "1 ekor Ayam utuh",
       "3 lembar Daun salam",
@@ -258,6 +261,36 @@
       "1 sdt Bumbu genep"
     ],
     "kalori": 260
-  }
-
+  },
+  "Aqua": {
+    "kategori": "Appetizer",
+    "cara": "Marinated with complete Balinese spices, wrapped in banana leaves, steamed",
+    "budaya": "Symbol of community cooperation",
+    "daerah": "Singaraja",
+    "gambar": "Aqua.jpg",
+    "barcode": "barcode_aqua.jpg",
+    "bahan": [
+      "200 gr Daging cincang",
+      "100 gr Parutan kelapa",
+      "3 sdm Darah babi",
+      "1 sdt Bumbu genep"
+    ],
+    "kalori": 260
+  },
+  "Siobak": {
+  "kategori": "Main Course",
+  "cara": "Pork is roasted, then coated with seasoned sweet soy sauce",
+  "budaya": "Non-halal dish popular among northern Balinese communities",
+  "daerah": "Singaraja",
+  "gambar": "siobak.jpg",
+  "barcode": "barcode_siobak.jpg",
+  "bahan": [
+    "300 gr Daging babi",
+    "2 sdm Kecap manis",
+    "3 siung Bawang putih",
+    "1 sdt Bumbu Bali",
+    "1 sdm Minyak untuk memanggang"
+  ],
+  "kalori": 430
+}
 }

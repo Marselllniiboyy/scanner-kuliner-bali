@@ -67,6 +67,7 @@ async function tampilkanData(nama) {
   if (makanan) {
     document.getElementById("nama").textContent = nama;
     document.getElementById("gambar").src = "gambar/" + makanan.gambar;
+    document.getElementById("barcode").src = "gambar/" + makanan.barcode;
     document.getElementById("bahan").textContent = makanan.bahan.join(", ");
     document.getElementById("cara").textContent = makanan.cara;
     document.getElementById("budaya").textContent = makanan.budaya;
@@ -75,6 +76,7 @@ async function tampilkanData(nama) {
   } else {
     document.getElementById("nama").textContent = "Makanan tidak ditemukan";
     document.getElementById("gambar").src = "gambar/broken-image.png";
+    document.getElementById("barcode").src = "gambar/broken-image.png";
     document.getElementById("bahan").textContent = "...";
     document.getElementById("cara").textContent = "...";
     document.getElementById("budaya").textContent = "...";

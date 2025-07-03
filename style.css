@@ -111,6 +111,18 @@ button:hover {
   margin-top: 15px;
 }
 
+h3 {
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+#barcode {
+  width: 35%;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+
 footer {
   margin-top: 40px;
   background-color: #3b2212;

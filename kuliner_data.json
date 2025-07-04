@@ -19,6 +19,7 @@
     "budaya": "Common daily snack; reflects simplicity and balance",
     "daerah": "Tabanan",
     "gambar": "tipat_cantok.jpg",
+    "barcode": "barcode_tipat_contok.jpg",
     "bahan": [
       "2 potong Lontong (rice cakes)",
       "1 genggam Kacang panjang",
@@ -32,7 +33,8 @@
     "cara": "Steamed vegetables topped with spicy grated coconut sauce",
     "budaya": "A healthy vegetarian dish from traditional farming communities",
     "daerah": "Bangli",
-    "gambar": "serombotan.jpg",
+    "gambar": "serombotan.jpeg",
+    "barcode": "barcode_serombotan.jpg",
     "bahan": [
       "1 mangkuk Sayuran kukus",
       "2 sendok makan Kelapa parut",
@@ -57,7 +59,7 @@
     "kategori": "Minuman Beralkohol",
     "cara": "Difermentasi dari malt, hop, ragi, dan air.",
     "budaya": "Minuman populer di berbagai kesempatan.",
-    "daerah": "Singaraja, Bali",
+    "daerah": "Singaraja",
     "gambar": "Bir.jpg",
     "barcode": "barcode_bir.jpg",
     "bahan": [
@@ -98,12 +100,13 @@
     ],
     "kalori": "0" 
   },
-  "Es Daluman": {
+  "Daluman": {
     "kategori": "Beverage",
     "cara": "Daluman jelly is cut, poured with coconut milk and palm sugar",
     "budaya": "Refreshing drink, often enjoyed in hot weather",
     "daerah": "Tabanan",
-    "gambar": "es_daluman.jpg",
+    "gambar": "daluman.jpg",
+    "barcode": "barcode_daluman.jpg",
     "bahan": [
       "1 gelas Cincau hijau (daluman)",
       "1 sendok makan Gula merah cair",
@@ -113,9 +116,9 @@
   },
   "Kopi Kintamani": {
     "kategori": "Beverage",
-    "cara": "Brewed or filtered using traditional methods",
+    "cara": "Brewed or filtered using traditionsal methods",
     "budaya": "Pride of Bangli highlands, with GI (Geographical Indication) certification",
-    "daerah": "Tabanan",
+    "daerah": "Bangli",
     "gambar": "kopi_kintamani.jpg",
     "bahan": [
       "2 sendok makan Biji kopi Arabika",
@@ -128,8 +131,9 @@
     "kategori": "Snack",
     "cara": "Grilled meat served with spicy tomato sambal",
     "budaya": "Popular in Tabanan, symbolizes fiery and bold flavor",
-    "daerah": "Bangli",
-    "gambar": "sate_plecing.jpg",
+    "daerah": "Tabanan",
+    "gambar": "sate_plecing.png",
+    "barcode": "barcode_sate_plecing.jpg",
     "bahan": [
       "5 tusuk Daging bakar",
       "2 sendok makan Sambal plecing",
@@ -156,7 +160,8 @@
     "cara": "Banana stem cooked with meat and traditional spices",
     "budaya": "Common in ceremonies as a sustainable and humble dish",
     "daerah": "Tabanan",
-    "gambar": "jukut_ares.jpg",
+    "gambar": "ares.jpg",
+    "barcode": "barcode_ares.jpg",
     "bahan": [
       "1 batang Batang pisang muda",
       "100 gr Daging babi/ayam",
@@ -171,6 +176,7 @@
     "budaya": "Symbol of cultural identity in breakfast traditions",
     "daerah": "Singaraja",
     "gambar": "nasi_tepeng.jpg",
+    "barcode": "barcode_nasi_tepeng.jpg",
     "bahan": [
       "1 piring Nasi lembek",
       "1 butir Telur rebus",
@@ -194,12 +200,13 @@
     ],
     "kalori": 70
   },
-  "Entil": {
+  "Entil Tabanan": {
     "kategori": "Snack",
     "cara": "Rice is steamed in banana leaves and served with side dishes",
     "budaya": "A ceremonial dish representing togetherness",
-    "daerah": "Bangli",
+    "daerah": "Tabanan",
     "gambar": "entil.jpg",
+    "barcode": "barcode_entil.jpg",
     "bahan": [
       "1 bungkus Nasi entil (nasi dalam daun)",
       "1 potong Telur rebus",
@@ -214,6 +221,7 @@
     "budaya": "Common coastal snack rich in iodine and culture",
     "daerah": "Singaraja",
     "gambar": "rujak_bulung.jpg",
+    "barcode":"barcode_rujak_bulung.jpg",
     "bahan": [
       "100 gr Rumput laut",
       "2 sdm Kelapa parut",
@@ -227,7 +235,8 @@
     "cara": "Marinated with complete Balinese spices, wrapped in banana leaves, steamed",
     "budaya": "Traditional ceremonial dish and symbol of respect",
     "daerah": "Bangli",
-    "gambar": "ayam_betutu.jpeg",
+    "gambar": "ayam_betutu.png",
+    "barcode": "barcode_betutu.jpg", 
     "bahan": [
       "1 ekor Ayam utuh",
       "3 lembar Daun salam",
@@ -242,6 +251,7 @@
     "budaya": "Symbol of community cooperation",
     "daerah": "Singaraja",
     "gambar": "lawar_merah.jpg",
+    "barcode": "barcode_lawar.jpg",
     "bahan": [
       "200 gr Daging cincang",
       "100 gr Parutan kelapa",
@@ -280,5 +290,22 @@
     "1 sdm Minyak untuk memanggang"
   ],
   "kalori": 430
+},
+"Sumping Waluh": {
+  "kategori": "Snack",
+  "cara": "Steamed rice flour cake filled with banana or coconut, wrapped in banana leaf",
+  "budaya": "Traditional Balinese snack often served during ceremonies or family gatherings",
+  "daerah": "Tabanan",
+  "gambar": "sumping.jpg",
+  "barcode": "barcode_sumping.jpg",
+  "bahan": [
+    "100 gr Tepung beras",
+    "1 buah Pisang raja (atau 2 sdm unti kelapa)",
+    "100 ml Santan",
+    "1 sdm Gula pasir",
+    "Sejumput garam",
+    "Daun pisang untuk membungkus"
+  ],
+  "kalori": 185
 }
 }

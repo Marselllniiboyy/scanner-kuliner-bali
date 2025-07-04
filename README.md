@@ -113,5 +113,24 @@ Hak cipta gambar atau data asli tetap pada pemilik masing-masing.
 
 ## 📱 Screenshot Aplikasi
 **Sebelum Proses SCaner**
+![Screenshot 2025-07-04 200507](https://github.com/user-attachments/assets/a7c6d694-5918-41a6-ba23-5cff8d293eaa)
 ![image](https://github.com/user-attachments/assets/18748836-6c40-4163-b49d-fd3d2950e247)
 ![image](https://github.com/user-attachments/assets/0fdac941-7b43-4084-8576-4ecbf082896b)
+
+**Sesudah Proses Scan/Pilih Gambar**
+![Screenshot 2025-07-04 200540](https://github.com/user-attachments/assets/3474fbcb-6299-45e9-ab29-d50a49347836)
+![Screenshot 2025-07-04 200600](https://github.com/user-attachments/assets/758acf4a-67fd-4a04-84eb-e57c56435237)
+![Screenshot 2025-07-04 200613](https://github.com/user-attachments/assets/02e1edfa-8b97-4a72-8432-dcb68145b86b)
+
+**Tampilan Scan QR**
+![WhatsApp Image 2025-07-04 at 20 57 46_e1706e88](https://github.com/user-attachments/assets/4462414f-685e-4cee-b649-7b357e934911)
+![WhatsApp Image 2025-07-04 at 20 57 47_be642298](https://github.com/user-attachments/assets/28e4a1c9-1e33-4d34-9442-f5b5c463ba1b)
+![WhatsApp Image 2025-07-04 at 20 57 46_9d26c140](https://github.com/user-attachments/assets/951b2da2-9eaa-4f85-99eb-c777dcba83dc)
+![WhatsApp Image 2025-07-04 at 20 57 47_d5b79089](https://github.com/user-attachments/assets/d4890122-f159-4419-8728-91f124e4e452)
+![WhatsApp Image 2025-07-04 at 20 57 46_e1706e88](https://github.com/user-attachments/assets/508e1c76-2193-4f0f-a577-aba98e4b472e)
+![WhatsApp Image 2025-07-04 at 20 57 45_68be7601](https://github.com/user-attachments/assets/228e8425-e8fc-4e53-bc02-2319aa9f9026)
+![WhatsApp Image 2025-07-04 at 20 57 52_17c81830](https://github.com/user-attachments/assets/372b9be9-4980-4060-990f-ce2ad65b65be)
+
+
+
+

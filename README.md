@@ -112,3 +112,6 @@ Hak cipta gambar atau data asli tetap pada pemilik masing-masing.
 ---
 
 ## 📱 Screenshot Aplikasi
+**Sebelum Proses SCaner**
+![image](https://github.com/user-attachments/assets/18748836-6c40-4163-b49d-fd3d2950e247)
+![image](https://github.com/user-attachments/assets/0fdac941-7b43-4084-8576-4ecbf082896b)

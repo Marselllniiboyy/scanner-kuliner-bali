@@ -1,56 +1,37 @@
 const MODEL_URL = "model/";
-let model, webcam, maxPredictions;
-let currentStream;
+let model, webcam, labelContainer, maxPredictions;
+let facingMode = "environment";
 
-async function loadModel() {
+async function init() {
+  // Load model
   const modelURL = MODEL_URL + "model.json";
   const metadataURL = MODEL_URL + "metadata.json";
   model = await tmImage.load(modelURL, metadataURL);
   maxPredictions = model.getTotalClasses();
-}
 
-async function getCameraDevices() {
-  const devices = await navigator.mediaDevices.enumerateDevices();
-  const videoDevices = devices.filter((device) => device.kind === "videoinput");
-  const select = document.getElementById("cameraSelect");
-  select.innerHTML = "";
-  videoDevices.forEach((device, index) => {
-    const option = document.createElement("option");
-    option.value = device.deviceId;
-    option.text = device.label || `Kamera ${index + 1}`;
-    select.appendChild(option);
-  });
-  return videoDevices;
-}
-
-async function initCamera(deviceId) {
-  if (webcam) await webcam.stop();
-  if (currentStream) {
-    currentStream.getTracks().forEach((track) => track.stop());
+  // Stop kamera lama jika ada
+  if (webcam) {
+    await webcam.stop();
   }
 
-  const constraints = {
-    video: {
-      deviceId: deviceId ? { exact: deviceId } : undefined,
-      width: 300,
-      height: 300,
-    },
-  };
-  const stream = await navigator.mediaDevices.getUserMedia(constraints);
-  currentStream = stream;
+  // Init kamera
+  // webcam = new tmImage.Webcam(300, 300, { facingMode: "environment" });
+  // await webcam.setup(); // minta izin akses kamera
+  // await webcam.play();
+  // window.requestAnimationFrame(loop);
+  // document.getElementById("webcam").appendChild(webcam.canvas);
 
-  const video = document.createElement("video");
-  video.srcObject = stream;
-  video.setAttribute("playsinline", true);
-  video.play();
-
-  webcam = new tmImage.Webcam(300, 300);
-  await webcam.setup({ video: video });
+  // Setup webcam dengan facingMode yang dipilih
+  webcam = new tmImage.Webcam(300, 300, { facingMode: facingMode });
+  await webcam.setup();
   await webcam.play();
 
+  // Tempatkan webcam canvas
   const webcamContainer = document.getElementById("webcam");
-  webcamContainer.innerHTML = "";
+  webcamContainer.innerHTML = ""; // bersihkan sebelumnya
   webcamContainer.appendChild(webcam.canvas);
+
+  // Mulai loop update frame
   window.requestAnimationFrame(loop);
 }
 
@@ -73,18 +54,23 @@ async function predict() {
 async function handleUpload(event) {
   const file = event.target.files[0];
   if (!file) return;
+
   const img = new Image();
   img.src = URL.createObjectURL(file);
+
   img.onload = async () => {
     const canvas = document.createElement("canvas");
     canvas.width = 300;
     canvas.height = 300;
     const ctx = canvas.getContext("2d");
+
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
     const prediction = await model.predict(canvas);
     const hasil = prediction.reduce((a, b) =>
       a.probability > b.probability ? a : b
     );
+
     const namaMakanan = hasil.className;
     console.log("Terdeteksi dari upload:", namaMakanan);
     tampilkanData(namaMakanan);
@@ -117,15 +103,10 @@ async function tampilkanData(nama) {
   }
 }
 
-async function switchCamera() {
-  const deviceId = document.getElementById("cameraSelect").value;
-  await initCamera(deviceId);
+function switchCamera() {
+  const selected = document.getElementById("cameraSelect").value;
+  facingMode = selected;
+  init(); // Re-init kamera
 }
 
-(async () => {
-  await loadModel();
-  const devices = await getCameraDevices();
-  if (devices.length > 0) {
-    await initCamera(devices[0].deviceId); // default pakai kamera pertama
-  }
-})();
+init(); // jalankan saat halaman dibuka

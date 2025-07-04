@@ -93,15 +93,20 @@ Hak cipta gambar atau data asli tetap pada pemilik masing-masing.
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 Developer 1
 
-- **Nama:** Marsel  
-- **Nama:** Bintang  
+- **Nama:** Marsel   
 - **Email:** _[marseljayawijaya@gmail.com]_  
-- **Email:** _[bintangpradnya80@gmail.com]_  
 - **GitHub:** [@Marselllniiboyy](https://github.com/Marselllniiboyy)  
-- **GitHub:** [@BintangPrdnya](https://github.com/BintangPrdnya)  
 - **Instagram:** [@marsel_wj](https://www.instagram.com/marsel_wj/) 
+
+---
+
+## 👨‍💻 Developer 2
+
+- **Nama:** Bintang  
+- **Email:** _[bintangpradnya80@gmail.com]_   
+- **GitHub:** [@BintangPrdnya](https://github.com/BintangPrdnya)  
 - **Instagram:** [@ppraadnyaa_](https://www.instagram.com/ppraadnyaa_/) 
 
 ---

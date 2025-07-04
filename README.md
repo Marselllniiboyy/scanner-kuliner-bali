@@ -4,6 +4,7 @@ Aplikasi web interaktif berbasis AI yang memungkinkan pengguna memindai gambar m
 
 🌐 **Live Demo:**  
 [https://marselllniiboyy.github.io/scanner-kuliner-bali/](https://marselllniiboyy.github.io/scanner-kuliner-bali/)
+
 🌐 **Live Coba Gambar Makanan:**
 [https://drive.google.com/drive/folders/1rHiRgX03Q4ze6dHtfkn0MyMHIYiXmQZL?usp=drive_link](https://drive.google.com/drive/folders/1rHiRgX03Q4ze6dHtfkn0MyMHIYiXmQZL?usp=drive_link)
 

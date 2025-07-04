@@ -6,16 +6,33 @@ async function init() {
   // Load model
   const modelURL = MODEL_URL + "model.json";
   const metadataURL = MODEL_URL + "metadata.json";
-
   model = await tmImage.load(modelURL, metadataURL);
   maxPredictions = model.getTotalClasses();
 
+  // Stop kamera lama jika ada
+  if (webcam) {
+    await webcam.stop();
+  }
+
   // Init kamera
-  webcam = new tmImage.Webcam(300, 300, { facingMode: "environment" });
-  await webcam.setup(); // minta izin akses kamera
+  // webcam = new tmImage.Webcam(300, 300, { facingMode: "environment" });
+  // await webcam.setup(); // minta izin akses kamera
+  // await webcam.play();
+  // window.requestAnimationFrame(loop);
+  // document.getElementById("webcam").appendChild(webcam.canvas);
+
+  // Setup webcam dengan facingMode yang dipilih
+  webcam = new tmImage.Webcam(300, 300, { facingMode: facingMode });
+  await webcam.setup();
   await webcam.play();
+
+  // Tempatkan webcam canvas
+  const webcamContainer = document.getElementById("webcam");
+  webcamContainer.innerHTML = ""; // bersihkan sebelumnya
+  webcamContainer.appendChild(webcam.canvas);
+
+  // Mulai loop update frame
   window.requestAnimationFrame(loop);
-  document.getElementById("webcam").appendChild(webcam.canvas);
 }
 
 async function loop() {
@@ -84,6 +101,12 @@ async function tampilkanData(nama) {
     document.getElementById("daerah").textContent = "...";
     document.getElementById("kalori").textContent = "...";
   }
+}
+
+function switchCamera() {
+  const selected = document.getElementById("cameraSelect").value;
+  facingMode = selected;
+  init(); // Re-init kamera
 }
 
 init(); // jalankan saat halaman dibuka

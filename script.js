@@ -32,26 +32,34 @@ async function initCamera(deviceId) {
   const constraints = {
     video: {
       deviceId: deviceId ? { exact: deviceId } : undefined,
-      width: 300,
-      height: 300,
+      width: { ideal: 640 },
+      height: { ideal: 480 },
     },
   };
-  const stream = await navigator.mediaDevices.getUserMedia(constraints);
-  currentStream = stream;
 
-  const video = document.createElement("video");
-  video.srcObject = stream;
-  video.setAttribute("playsinline", true);
-  video.play();
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    currentStream = stream;
 
-  webcam = new tmImage.Webcam(300, 300);
-  await webcam.setup({ video: video });
-  await webcam.play();
+    const video = document.createElement("video");
+    video.srcObject = stream;
+    video.setAttribute("playsinline", true);
+    video.play();
 
-  const webcamContainer = document.getElementById("webcam");
-  webcamContainer.innerHTML = "";
-  webcamContainer.appendChild(webcam.canvas);
-  window.requestAnimationFrame(loop);
+    webcam = new tmImage.Webcam(300, 300);
+    await webcam.setup({ video: video });
+    await webcam.play();
+
+    const webcamContainer = document.getElementById("webcam");
+    webcamContainer.innerHTML = "";
+    webcamContainer.appendChild(webcam.canvas);
+    window.requestAnimationFrame(loop);
+  } catch (err) {
+    alert(
+      "Gagal mengakses kamera. Coba gunakan kamera lain atau browser yang berbeda."
+    );
+    console.error("Error akses kamera:", err);
+  }
 }
 
 async function loop() {
@@ -126,6 +134,6 @@ async function switchCamera() {
   await loadModel();
   const devices = await getCameraDevices();
   if (devices.length > 0) {
-    await initCamera(devices[0].deviceId); // default pakai kamera pertama
+    await initCamera(devices[0].deviceId); // default kamera pertama
   }
 })();

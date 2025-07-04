@@ -1,16 +1,4 @@
 {
-  "Sumping": {
-    "bahan": ["Tepung beras", "Gula merah", "Daun pisang"],
-    "cara": "1. Campur tepung dengan air dan santan. 2. Bungkus dengan daun pisang. 3. Kukus.",
-    "kalori": 180,
-    "gambar": "sumping.jpg"
-  },
-  "Lawar": {
-    "bahan": ["Daging cincang", "Kelapa parut", "Rempah Bali"],
-    "cara": "1. Campur semua bahan. 2. Masak sampai matang.",
-    "kalori": 250,
-    "gambar": "lawar.jpg"
-  },    
   "Sudang Lepet": {
   "kategori": "Snack",
   "cara": "Salted fish is wrapped in banana leaves and grilled with coconut oil",
@@ -23,7 +11,7 @@
     "2 potong(misal) Banana leaf",
     "2 kg(misal) Coconut oil"
   ],
-  "kalori": 245
+  "kalori": "100-200"
 },
   "Tipat Cantok": {
     "kategori": "Snack",
@@ -37,7 +25,7 @@
       "3 sendok makan Saus kacang",
       "1 lembar Daun salam"
     ],
-    "kalori": 260
+    "kalori": "300-400"
   },
   "Serombotan": {
     "kategori": "Salad",
@@ -50,7 +38,7 @@
       "2 sendok makan Kelapa parut",
       "1 sendok teh Sambal kelapa"
     ],
-    "kalori": 245
+    "kalori": 115
   },
   "Bubur Mengguh": {
     "kategori": "Snack",
@@ -63,7 +51,7 @@
       "1 potong Ayam suwir berbumbu",
       "1 sendok makan Bawang goreng"
     ],
-    "kalori": 245
+    "kalori": 200
   },
   "Bir Singaraja": {
     "kategori": "Minuman Beralkohol",
@@ -121,7 +109,7 @@
       "1 sendok makan Gula merah cair",
       "100 ml Santan"
     ],
-    "kalori": 245
+    "kalori": 450
   },
   "Kopi Kintamani": {
     "kategori": "Beverage",
@@ -134,7 +122,7 @@
       "200 ml Air panas",
       "1 iris Kulit jeruk"
     ],
-    "kalori": 245
+    "kalori": 5
   },
   "Sate Plecing": {
     "kategori": "Snack",
@@ -147,7 +135,7 @@
       "2 sendok makan Sambal plecing",
       "1 sendok teh Minyak kelapa"
     ],
-    "kalori": 245
+    "kalori": 350
   },
   "Jaje Laklak": {
     "kategori": "Snack",
@@ -161,7 +149,7 @@
       "2 sendok makan Kelapa parut",
       "1 sendok makan Gula merah"
     ],
-    "kalori": 260
+    "kalori": 200
   },
   "Jukut Ares": {
     "kategori": "Snack",
@@ -175,7 +163,7 @@
       "2 siung Bawang putih",
       "1 sdt Ketumbar bubuk"
     ],
-    "kalori": 260
+    "kalori": 113
   },
   "Nasi Tepeng": {
     "kategori": "Snack",
@@ -189,7 +177,7 @@
       "1 sendok sayur Sayur urap",
       "2 sendok makan Sambal Bali"
     ],
-    "kalori": 260
+    "kalori": 230
   },
   "Loloh Cemcem": {
     "kategori": "Beverage",
@@ -204,7 +192,7 @@
       "1 sdm Gula aren",
       "100 ml Air matang"
     ],
-    "kalori": 260
+    "kalori": 70
   },
   "Entil": {
     "kategori": "Snack",
@@ -218,7 +206,7 @@
       "1 sdm Sambal goreng",
       "1 porsi Sayur labu"
     ],
-    "kalori": 260
+    "kalori": 113
   },
   "Rujak Bulung": {
     "kategori": "Snack",
@@ -232,7 +220,7 @@
       "1 sdt Terasi bakar",
       "3 buah Cabe rawit"
     ],
-    "kalori": 260
+    "kalori": 213
   },
   "Ayam Betutu": {
     "kategori": "Main Course",
@@ -246,7 +234,7 @@
       "5 sdm Base genep (bumbu lengkap Bali)",
       "2 lembar Daun pisang"
     ],
-    "kalori": 260
+    "kalori": 425
   },
   "Lawar Merah": {
     "kategori": "Appetizer",
@@ -260,7 +248,7 @@
       "3 sdm Darah babi",
       "1 sdt Bumbu genep"
     ],
-    "kalori": 260
+    "kalori": 111 
   },
   "Aqua": {
     "kategori": "Appetizer",
@@ -275,7 +263,7 @@
       "3 sdm Darah babi",
       "1 sdt Bumbu genep"
     ],
-    "kalori": 260
+    "kalori": 0
   },
   "Siobak": {
   "kategori": "Main Course",

@@ -17,6 +17,10 @@
       <h1>Scanner Kuliner Bali</h1>
     </header>
     <main>
+      <select id="cameraSelect" onchange="switchCamera()">
+        <option value="user">📷 Kamera Depan</option>
+        <option value="environment" selected>📸 Kamera Belakang</option>
+      </select>
       <div id="webcam" class="webcam-container"></div>
       <div class="kontrol">
         <button onclick="predict()">Scan Sekarang</button>

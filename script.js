@@ -1,5 +1,6 @@
 const MODEL_URL = "model/";
 let model, webcam, labelContainer, maxPredictions;
+let facingMode = "environment";
 
 async function init() {
   // Load model

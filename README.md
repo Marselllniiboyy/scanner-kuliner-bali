@@ -60,6 +60,14 @@ scan-kuliner-bali/
 2. Pilih gambar makanan dari galeri/penyimpanan
 3. Aplikasi akan menampilkan hasil prediksi
 
+### C. Mencoba qr code
+1. Setelah **"Upload Gambar"** dan makanan sudah sesuai tampil
+2. Coba scrol ke bawah, akan muncul sebuah qr code
+3. QR code tersebut bisa discan menggunakan kamera dihp
+4. Setelah discan, akan masuk kehalaman AR, tinggal dinext"
+5. Setelah masuk ke menu qr, coba arahkan kamera ke makanan yang ada diatas qr dihalaman scan-culiner
+6. Maka muncul deskripsi berbentuk AR dari makanan tersebut 
+
 ---
 
 ## 📊 Dataset yang Digunakan
@@ -70,9 +78,12 @@ Model dilatih pada 4 kelas makanan khas Bali menggunakan Teachable Machine:
 - 🍃 **Entil Tabanan**
 - 🍛 **Jukut Ares**
 - 🍢 **Sate Plecing**
+- 🍾 **Bir Singaraja**
+- Dan masih banyak lagi, bisa di cek di data set.....
 
 > Model dapat ditingkatkan dengan menambah jumlah sampel & kelas baru.
-
+kami menggunakan model yang sudah ada yaitu model AI dari Teachable Machine (image classification), yang kami tinggal memlatih/proses traning agar bisa mengenali makan makan yang ada di dalam data set, setelah melakukan traning kami mengkonfigurasi agar data model AI tersebut dapat bekerja melalu tangkapan kamera ataupun file yang dipilih langsung dari perangkat. 
+Semua proses tersebut dilakukan difile script.js
 ---
 
 ## 📎 Lisensi
@@ -84,10 +95,14 @@ Hak cipta gambar atau data asli tetap pada pemilik masing-masing.
 
 ## 👨‍💻 Developer
 
-- **Nama:** Marselino  
-- **Email:** _[ganti dengan email kamu]_  
+- **Nama:** Marsel  
+- **Nama:** Bintang  
+- **Email:** _[marseljayawijaya@gmail.com]_  
+- **Email:** _[bintangpradnya80@gmail.com]_  
 - **GitHub:** [@Marselllniiboyy](https://github.com/Marselllniiboyy)  
-- **Instagram:** [@marselllniiboyy](https://instagram.com/marselllniiboyy)  
+- **GitHub:** [@BintangPrdnya](https://github.com/BintangPrdnya)  
+- **Instagram:** [@marsel_wj](https://www.instagram.com/marsel_wj/) 
+- **Instagram:** [@ppraadnyaa_](https://www.instagram.com/ppraadnyaa_/) 
 
 ---
 
